@@ -1,0 +1,30 @@
+.component {
+    background: rgba(97, 0, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 644px;
+    height: 288px;
+    margin-bottom: 20px;
+    .buttonPanel {
+        padding: 24px;
+        button {
+            background: #C4C4C4;
+            width: 164px;
+            height: 32px;
+        }
+        .activeButton {
+            background: rgba(139, 255, 248, 0.6);
+        }
+    }
+    .inputPanel {
+        padding-bottom: 24px;
+        input {
+            width: 493px;
+            border: 1px solid #000000;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}

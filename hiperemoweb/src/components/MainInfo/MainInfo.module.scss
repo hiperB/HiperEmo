@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Satisfy-Regular";
+    src: local("Satisfy-Regular"),
+    url("../../assets/Satisfy-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    .title {
+        font-size: 64px;
+        line-height: 92px;
+        font-family: Satisfy-Regular;
+        color: #7000FF;
+        text-shadow: 1px 0  #000000, -1px 0  #000000, 0 1px  #000000, 0 -1px  #000000;
+        text-align: center;
+    }
+    .info {
+        width: 491px;
+        color: #000000;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+    .infoRow {
+        padding: 10px 0;
+        text-align: center
+    }
+}

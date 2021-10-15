@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Satisfy-Regular";
+    src: local("Satisfy-Regular"),
+      url("../../../assets/Satisfy-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.component {
+    width: 100%;
+    min-height: 8vh;
+    .logoPanel {
+        border: 1px solid #001AFF;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 8vh;
+        background: rgba(0, 26, 255, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .logo {
+        text-shadow: 1px 0  #000000, -1px 0  #000000, 0 1px  #000000, 0 -1px  #000000;
+        font-family: Satisfy-Regular;
+        font-size: 24px;
+        line-height: 35px;
+        color: #7000FF;
+        padding: 0 10px;
+    }
+}
